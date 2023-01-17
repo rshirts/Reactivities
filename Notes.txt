@@ -1,1 +1,9 @@
+1. How to run dotnet in watch mode?
 run command: dotnet watch --no-hot-reload 
+2. What is the architecture we are using for the project?
+https://www.udemy.com/course/complete-guide-to-building-an-app-with-net-core-and-react/learn/lecture/24835708#overview
+https://www.c-sharpcorner.com/article/what-is-clean-architecture/
+3. What is the database pattern we are using for the project?
+https://www.udemy.com/course/complete-guide-to-building-an-app-with-net-core-and-react/learn/lecture/24835712#overview
+https://learn.microsoft.com/en-us/azure/architecture/patterns/cqrs
+https://www.ibm.com/cloud/architecture/architectures/event-driven-cqrs-pattern/
