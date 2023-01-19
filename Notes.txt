@@ -14,3 +14,8 @@ axios - api queries
 mobx - data store
 mobx-react-light - allows compoents to be observers
 ? Is there another way to make compoents observers in mobx?
+react router
+
+Continue learning 
+mobx
+useEffect conditions at end of function.
