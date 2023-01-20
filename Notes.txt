@@ -1,3 +1,5 @@
+
+dotnet restore - make sure added packages are available.
 1. How to run dotnet in watch mode?
 run command: dotnet watch --no-hot-reload 
 2. What is the architecture we are using for the project?
