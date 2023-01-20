@@ -10,11 +10,14 @@ https://www.ibm.com/cloud/architecture/architectures/event-driven-cqrs-pattern/
 
 installed packages
 uuid - unique identifier (Guid)
+@types/uuid <- Something like that
 axios - api queries
 mobx - data store
 mobx-react-light - allows compoents to be observers
 ? Is there another way to make compoents observers in mobx?
-react router
+react-router
+react-calendar
+@types/react-calendar
 
 Continue learning 
 mobx
