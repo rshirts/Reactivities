@@ -10,6 +10,10 @@ https://www.udemy.com/course/complete-guide-to-building-an-app-with-net-core-and
 https://learn.microsoft.com/en-us/azure/architecture/patterns/cqrs
 https://www.ibm.com/cloud/architecture/architectures/event-driven-cqrs-pattern/
 
+4.How to drop the database to start over with the created default database.
+- switch to the directory with the solution and run the following command.
+dotnet ef database drop -s API -p Persistence 
+
 installed packages
 uuid - unique identifier (Guid)
 @types/uuid <- Something like that
@@ -20,6 +24,7 @@ mobx-react-light - allows compoents to be observers
 react-router
 react-calendar
 @types/react-calendar
+@react-toastify
 
 Continue learning 
 mobx

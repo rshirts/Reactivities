@@ -1,6 +1,7 @@
 using Persistence;
 using Microsoft.EntityFrameworkCore;
 using API.Extensions;
+using API.Middleware;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -14,8 +15,13 @@ builder.Services.AddApplicationServices(builder.Configuration);
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
+app.UseMiddleware<ExceptionMiddleware>();
+
 if (app.Environment.IsDevelopment())
 {
+    //This is hidden in minimal api's for .net 6+ but I added it here to know it exists
+    //This is what is used when an exception in thrown in development mode.
+    // app.UseDeveloperExceptionPage();
     app.UseSwagger();
     app.UseSwaggerUI();
 }
