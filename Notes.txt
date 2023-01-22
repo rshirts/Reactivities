@@ -14,7 +14,9 @@ https://www.ibm.com/cloud/architecture/architectures/event-driven-cqrs-pattern/
 - switch to the directory with the solution and run the following command.
 dotnet ef database drop -s API -p Persistence 
 
-installed packages
+5. In typescript surrounding a type with Partial< sometype > then it makes all properties optional
+
+installed packages most with typescript
 uuid - unique identifier (Guid)
 @types/uuid <- Something like that
 axios - api queries
@@ -25,7 +27,17 @@ react-router
 react-calendar
 @types/react-calendar
 @react-toastify
+formik - form library
+yup - form Validation
+@types/yup
+react-datepicker - date picker with time option
+@types/react-datepicker
+date-fns (date formatting)
 
 Continue learning 
 mobx
 useEffect conditions at end of function.
+formik
+
+the !! changes the string var into a boolean
+!!meta.error
